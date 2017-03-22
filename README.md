@@ -2,13 +2,9 @@
 
 
 ```
-abc
-def
-```
 
 
-
-'''String1
+String1
 
 
 
@@ -86,5 +82,4 @@ linear_merge
   X  got: ['zz', 'xx', 'aa', 'bb', 'cc'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
   X  got: ['xx', 'aa', 'bb', 'cc', 'zz'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
   X  got: ['bb', 'bb', 'aa', 'aa', 'aa'] expected: ['aa', 'aa', 'aa', 'bb', 'bb']
- 
- '''
+```
