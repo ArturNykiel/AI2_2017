@@ -1,5 +1,5 @@
 # AI2_2017
-String1
+'''String1
 
 
 
@@ -78,4 +78,4 @@ linear_merge
   X  got: ['xx', 'aa', 'bb', 'cc', 'zz'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
   X  got: ['bb', 'bb', 'aa', 'aa', 'aa'] expected: ['aa', 'aa', 'aa', 'bb', 'bb']
  
- 
+ '''
