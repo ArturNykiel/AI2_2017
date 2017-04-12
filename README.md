@@ -98,11 +98,7 @@ Hello, World!
   |  |  
 --------
   |  |  
->>> XLox()
-Traceback (most recent call last):
-  File "<pyshell#2>", line 1, in <module>
-    XLox()
-NameError: name 'XLox' is not defined
+
 >>> XLxo()
   |  |  H  |  |  H  |  |  
 --+--+--H--+--+--H--+--+--
