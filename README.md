@@ -82,7 +82,7 @@ linear_merge
   X  got: ['zz', 'xx', 'aa', 'bb', 'cc'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
   X  got: ['xx', 'aa', 'bb', 'cc', 'zz'] expected: ['aa', 'bb', 'cc', 'xx', 'zz']
   X  got: ['bb', 'bb', 'aa', 'aa', 'aa'] expected: ['aa', 'aa', 'aa', 'bb', 'bb']
-```
+
 
 lab2
 
@@ -150,3 +150,4 @@ Hello, World!
 [('apple', 5), ('orange', 6), ('pear', 4)]
 {'pear': 4, 'orange': 6, 'apple': 5}
 >>> 
+```
