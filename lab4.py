@@ -15,7 +15,7 @@ def test_map():
     print(list(map(len, ['hello', 'world'])))
     print(list(map(lambda s: s[::-1], ['hello', 'world'])))
     print(list(map(lambda n: (n, n ** 2, n ** 3), range(2, 6))))
-    print(list(map(lambda l, r: l * r, zip(range(2, 5), range(3, 9, 2)))))
+    print(list(map(lambda l, r: l * r, range(2, 5), range(3, 9, 2))))
 
 def test_filter():
     print(list(filter(lambda x: int(x) >= 0, ['12', '-2', '0'])))
@@ -32,7 +32,7 @@ def lcm(*args):
     return functools.reduce(lambda x, y: x * y / gcd(x, y), args)
 
 def fact(n):
-    return functools.reduce(operator.mul, range(n))
+    return functools.reduce(operator.mul, range(1,n+1))
 
 def testfact():
     print(fact(3))
