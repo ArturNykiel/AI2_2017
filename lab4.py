@@ -37,3 +37,23 @@ def fact(n):
 def testfact():
     print(fact(3))
     print(fact(7))
+
+def testcomparisons():
+    words = ['pear', 'cabbage', 'apple', 'bananas']
+    min(words) 
+    words.sort(key=lambda s: s[-1])  
+    words  
+    max(words, key=len)  
+    x= min(words, key=lambda s: s[1::2]) 
+    print(x)
+
+def highest_alphanumeric_score():
+    def alpha_score(upper_letters):
+        return sum(map(lambda l: 1 + ord(l) - ord('A'), upper_letters))
+
+
+    def two_best(words):
+        words.sort(key=lambda word: alpha_score(filter(str.isupper, word)), reverse=True)
+        return words[:2]
+
+    print(two_best(['hEllO', 'wOrLD', 'i', 'aM', 'PyThOn']))
